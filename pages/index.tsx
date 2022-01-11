@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Intro from "components/modules/Intro"
 
 const year = (new Date()).getFullYear()
 
@@ -13,9 +14,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <h1 className="">
-          Welcome to Dzung Phan&apos;s portfolio
-        </h1>
+        <Intro />
       </main>
 
       <footer>
