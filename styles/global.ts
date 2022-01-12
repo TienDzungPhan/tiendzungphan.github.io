@@ -22,10 +22,10 @@ const globalStyles = globalCss({
     minHeight: "10vh",
     display: "flex",
     flex: 1,
-    padding: "1rem 0",
+    padding: "1rem 3rem",
     borderTop: "1px solid",
     borderColor: "$blue100",
-    justifyContent: "center",
+    justifyContent: "space-between",
     alignItems: "center"
   }
 })
