@@ -1,5 +1,5 @@
 import React from 'react'
-import { Avatar as NextAvatar, AvatarProps } from '@nextui-org/react'
+import { Avatar as NextUIAvatar, AvatarProps } from '@nextui-org/react'
 
 interface IProps extends AvatarProps {}
 
@@ -9,7 +9,7 @@ const Avatar: React.FC<IProps> = ({
   css
 }) => {
   return (
-    <NextAvatar
+    <NextUIAvatar
       src={src}
       size={size}
       css={css}
